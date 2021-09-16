@@ -8,6 +8,7 @@ export class MainView extends Phaser2Grid {
     this._build();
 
     window.addEventListener("resize", () => {
+      // addOverlayCommand();
       this._onResize();
     });
   }
